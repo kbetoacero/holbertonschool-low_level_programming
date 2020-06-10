@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - Entry point
+*main - 4-puts
 *
 *Return: Always 0
 */
