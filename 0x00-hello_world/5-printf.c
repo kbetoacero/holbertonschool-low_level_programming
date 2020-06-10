@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - Entry point
+*main - 5-printf
 *
 *Return: Always 0
 */
