@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 *main - Function 0-positive_or_negative
 *check a random number n
