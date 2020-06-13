@@ -5,16 +5,18 @@
  *
  * Return: Always 0
  */
-
 int main(void)
 {
+	char letter = 'z';
 
-	char letter;
-
-	for (letter = 'z'; letter >= 'a'; letter--)
-		putchar(letter);
+	while (letter >= 'a')
+	{
+		printf("%c", letter);
+	letter--;
+	}
 
 	putchar('\n');
 
-return (0);
+	return (0);
 }
+
