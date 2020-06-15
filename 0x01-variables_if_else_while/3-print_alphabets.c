@@ -9,14 +9,23 @@
 int main(void)
 {
 	char letter;
+	char letter_A;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	letter = 'a';
+	letter_A = 'A';
+
+	while (letter <= 'z')
+	{
 		putchar(letter);
+		letter++;
+	}
+	while (letter_A <= 'Z')
+	{
+		putchar(letter_A);
+		letter_A++;
+	}
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
-
-	putchar ('\n');
+	putchar('\n');
 
 	return (0);
 }
