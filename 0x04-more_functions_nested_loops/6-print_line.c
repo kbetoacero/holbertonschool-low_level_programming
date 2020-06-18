@@ -2,7 +2,7 @@
 
 /**
 * print_line - draws a straigh line
-* @c: lenght of a line
+* @n: lenght of a line
 * Return: Always 0
 */
 
