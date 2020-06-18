@@ -1,4 +1,4 @@
-#more functions, nested loops
+#More functions, nested loops
 
 ##This folder contains practical exercise created in order to learning low level programming
 
