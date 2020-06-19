@@ -19,10 +19,10 @@ void print_square(int size)
 				_putchar('#');
 				c++;
 			}
-			_putchar('\n');
-			l++;
+		_putchar('\n');
+		l++;
 		}
 	}
 	else
-		_putchar('\n');
+	_putchar('\n');
 }
