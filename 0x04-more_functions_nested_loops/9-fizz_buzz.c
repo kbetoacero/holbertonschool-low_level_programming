@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - Fizz_Buzz test
 * Return : Always 0
