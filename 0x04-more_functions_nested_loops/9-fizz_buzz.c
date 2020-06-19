@@ -13,19 +13,19 @@ int main(void)
 	{
 		if (number % 3 == 0 && number % 5 == 0)
 		{
-			printf("fizzbuzz");
+			printf("FizzBuzz");
 			printf(" ");
 			number ++;
 		}
 			else if (number % 5 == 0)
 			{
-				printf("buzz");
+				printf("Buzz");
 				printf(" ");
 				number++;
 			}
 			else if (number % 3 == 0)
 			{
-				printf("fizz");
+				printf("Fizz");
 				printf(" ");
 				number++;	
 			}
@@ -36,5 +36,6 @@ int main(void)
 			number++;
 			}
 	}
+	printf("\n");
 	return (0);
 }
