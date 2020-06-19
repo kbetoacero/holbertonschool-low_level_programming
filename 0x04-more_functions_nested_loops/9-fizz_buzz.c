@@ -3,8 +3,8 @@
 /**
 * main - Fizz_Buzz test
 * Return : Always 0
-*
 */
+
 int main(void)
 {
 	int number = 1;
@@ -15,7 +15,7 @@ int main(void)
 		{
 			printf("FizzBuzz");
 			printf(" ");
-			number ++;
+			number++;
 		}
 			else if (number % 5 == 0)
 			{
@@ -27,7 +27,7 @@ int main(void)
 			{
 				printf("Fizz");
 				printf(" ");
-				number++;	
+				number++;
 			}
 			else
 			{
