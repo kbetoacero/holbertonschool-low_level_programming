@@ -2,9 +2,12 @@
 
 /**
 * main - Fizz_Buzz test
-* Return : Always 0
+* Description : Print number from 1 to 100
+* for multiple of 3 print Fizz
+* for multiple of five print Fuzz
+* for multiple of 3 and 5 print FizFuzz
+* Return: Always 0
 */
-
 int main(void)
 {
 	int number = 1;
