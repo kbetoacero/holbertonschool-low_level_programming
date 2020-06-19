@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-* print_square - print a square
-* @n: square
+* print_square - prints a square
+* size: square
 * Return: Always 0
 */
 
