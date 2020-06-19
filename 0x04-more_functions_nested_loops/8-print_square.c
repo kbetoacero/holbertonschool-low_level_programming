@@ -4,7 +4,6 @@
 * print_square - prints a square
 * @size: Number of lines and columns
 */
-
 void print_square(int size)
 {
 	int l = 1;
