@@ -26,16 +26,15 @@ int main(void)
 		else if (number % 3 == 0)
 			{
 				printf("Fizz");
-				printf(" ");	
+				printf(" ");
 				number++;
 			}
-		else 
+		else
 		{
 		printf("%d", number);
 		printf(" ");
 		number++;
 		}
-			
 	}
 	printf("\n");
 	return (0);
