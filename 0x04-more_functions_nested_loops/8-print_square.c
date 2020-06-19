@@ -2,7 +2,7 @@
 
 /**
 * print_square - prints a square
-* @size: square
+* @size: Number of lines and columns
 * Return: Always 0
 */
 
