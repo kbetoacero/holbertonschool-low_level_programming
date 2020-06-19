@@ -2,6 +2,7 @@
 
 /**
 * main - Fizz_Buzz test
+*
 * Description : Print number from 1 to 100
 * for multiple of 3 print Fizz
 * for multiple of five print Fuzz
@@ -27,11 +28,11 @@ int main(void)
 			number++;
 		}
 		else if (number % 3 == 0)
-			{
-				printf("Fizz");
-				printf(" ");
-				number++;
-			}
+		{
+			printf("Fizz");
+			printf(" ");
+			number++;
+		}
 		else
 		{
 		printf("%d", number);
