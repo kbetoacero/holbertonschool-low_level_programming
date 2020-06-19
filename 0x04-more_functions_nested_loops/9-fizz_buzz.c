@@ -12,17 +12,20 @@ int main(void)
 	{
 		if (number % 3 == 0 && number % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
+			printf(" ");
 			number++;
 		}
 			else if (number % 5 == 0)
 			{
-				printf("Buzz ");
+				printf("Buzz");
+				printf(" ");
 				number++;
 			}
 			else if (number % 3 == 0)
 			{
-				printf("Fizz ");
+				printf("Fizz");
+				printf(" ");	
 				number++;
 			}
 			else
