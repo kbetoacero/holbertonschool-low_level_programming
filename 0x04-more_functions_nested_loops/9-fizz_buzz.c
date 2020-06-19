@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 * main - Fizz_Buzz test
 * Return : Always 0
@@ -16,24 +17,24 @@ int main(void)
 			printf(" ");
 			number++;
 		}
-			else if (number % 5 == 0)
-			{
-				printf("Buzz");
-				printf(" ");
-				number++;
-			}
-			else if (number % 3 == 0)
+		else if (number % 5 == 0)
+		{
+			printf("Buzz");
+			printf(" ");
+			number++;
+		}
+		else if (number % 3 == 0)
 			{
 				printf("Fizz");
 				printf(" ");	
 				number++;
 			}
-			else
-			{
-			printf("%d", number);
-			printf(" ");
-			number++;
-			}
+		else 
+		{
+		printf("%d", number);
+		printf(" ");
+		number++;
+		}
 			
 	}
 	printf("\n");
