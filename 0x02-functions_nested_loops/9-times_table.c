@@ -42,5 +42,4 @@ void times_table(void)
 	_putchar('\n');
 	files++;
 	}
-	_putchar('\n');
 }
