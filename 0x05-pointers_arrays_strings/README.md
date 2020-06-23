@@ -1,4 +1,4 @@
-#Pointer, arrays amd strings
+#Pointer, arrays and strings
 
 ##This folder contains practical exercise created in order to learning low level programming
 
