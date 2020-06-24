@@ -2,7 +2,7 @@
 
 /**
 * rev_string - reverses a string
-* @s - var type char
+* @s: var type char
 * Return : reversed string
 */
 
