@@ -12,7 +12,7 @@ char *leet(char *s)
 	int x;
 	char *up = "AEOTL";
 	char *lw = "aeotl";
-	char *r = "43071";
+	char *n= "43071";
 
 	while (*(s + i))
 	{
@@ -21,7 +21,7 @@ char *leet(char *s)
 		{
 			if (*(s + i) == lw[x] || *(s + i) == up[x])
 				{
-				*(s + i) = r[x];
+				*(s + i) = n[x];
 				}
 		x++;
 		}
