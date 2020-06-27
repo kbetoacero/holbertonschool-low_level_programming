@@ -13,14 +13,14 @@ char *rot13(char *s)
 	int x = 0;
 	int y;
 
-	while (*(s + x) != '\0')
+	while (s[x] != '\0')
 	{
 		y = 0;
 		while (y <= 51)
 		{
-			if (*(s + x) == a[y])
+			if (s[x] == a[y])
 			{
-				*(s + x) = rot13[y];
+				s[x] = rot13[y];
 				break;
 			}
 		y++;
