@@ -8,22 +8,24 @@
 
 char *leet(char *s)
 {
-	int i, j;
-	char *low = "aeotl";
-	char *upper = "AEOTL";
+	int i = 0;
+	int x;
+	char *up = "AEOTL";
+	char *lw = "aeotl";
 	char *r = "43071";
 
-	for (i = 0; *(s + i); i++)
+	while (*(s + i))
 	{
-	j = 0;
-
-		for (j = 0; low[j]; j++)
+		x = 0;
+		while (lw[x])
 		{
-			if (*(s + i) == low[j] || *(s + i) == upper[j])
+			if (*(s + i) == lw[x] || *(s + i) == up[x])
 				{
-				s[i] = r[j];
+				*(s + i) = r[x];
 				}
+		x++;
 		}
+	i++;
 	}
 	return (s);
 }
