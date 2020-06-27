@@ -10,9 +10,9 @@ char *leet(char *s)
 {
 	int i = 0;
 	int x;
-	char *up = "AEOTL";
-	char *lw = "aeotl";
-	char *n = "43071";
+	char *up = "TLEAO";
+	char *lw = "tleao";
+	char *n = "71340";
 
 	while (*(s + i))
 	{
