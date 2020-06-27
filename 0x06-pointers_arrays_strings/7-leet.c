@@ -12,7 +12,7 @@ char *leet(char *s)
 	int x;
 	char *up = "AEOTL";
 	char *lw = "aeotl";
-	char *n= "43071";
+	char *n = "43071";
 
 	while (*(s + i))
 	{
