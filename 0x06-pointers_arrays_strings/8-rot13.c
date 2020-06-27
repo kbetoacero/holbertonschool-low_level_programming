@@ -10,22 +10,22 @@ char *rot13(char *s)
 {
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	int i = 0;
-	int j;
+	int x = 0;
+	int y;
 
-	while (*(s + i) != '\0')
+	while (*(s + x) != '\0')
 	{
-		j = 0;
-		while (j <= 51)
+		y = 0;
+		while (y <= 51)
 		{
-			if (*(s + i) == a[j])
+			if (*(s + x) == a[y])
 			{
-				*(s + i) = rot13[j];
+				*(s + x) = rot13[y];
 				break;
 			}
-		j++;
+		y++;
 		}
-	i++;
+	x++;
 	}
 	return (s);
 }
