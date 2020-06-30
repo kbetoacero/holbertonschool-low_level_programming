@@ -15,10 +15,16 @@ char *_strchr(char *s, char c)
 		{
 			return (s);
 		}
+<<<<<<< HEAD
 		else
 		{
 			return ('\0');
 		}
 		s++;
 	}
+=======
+		s++;
+	}
+	return (!c ? s : '\0');
+>>>>>>> 419fdd058d52fdffd45a7a040b19a9e23df12aea
 }
