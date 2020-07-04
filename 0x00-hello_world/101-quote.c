@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
 *main - 101-quote
 *
