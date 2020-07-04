@@ -23,8 +23,8 @@ int main(void)
 
 			if (digit2 + digit1 != 18)
 			{
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 			digit1++;
 		}
