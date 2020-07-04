@@ -11,8 +11,8 @@ int main(void)
 
 	while (letter >= 'a')
 	{
-		printf("%c", letter);
-	letter--;
+		putchar(letter);
+		letter--;
 	}
 
 	putchar('\n');
