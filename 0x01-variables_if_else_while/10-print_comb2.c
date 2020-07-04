@@ -10,11 +10,10 @@ int main(void)
 {
 
 	int digit2 = 0;
-	int digit1;
 
 	while (digit2 <= 9)
 	{
-		digit1 = 0;
+		int digit1 = 0;
 
 		while(digit1 <= 9)
 		{
