@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+
 /**
 * *_strdup - return a pointer to a newlly allocated space in memory which
 * contains a copy of the string given as a parameter
@@ -26,6 +27,7 @@ char *_strdup(char *str)
 
 	if (s2 == NULL)
 		return (NULL);
+
 	i = 0;
 
 	while (i < len + 1)
