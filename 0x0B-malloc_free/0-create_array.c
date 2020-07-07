@@ -15,19 +15,20 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 	{
-		return ('\0');
+		return (NULL);
 	}
 
 	array = malloc(size * sizeof(char));
 
-	if (array == '\0')
+	if (array == NULL)
 	{
-		return ('\0');
+		return (NULL);
 	}
+
 	i = 0;
 	while (i < size)
 	{
-		array[i] *= c;
+		array[i] += c;
 		i++;
 	}
 	return (array);
