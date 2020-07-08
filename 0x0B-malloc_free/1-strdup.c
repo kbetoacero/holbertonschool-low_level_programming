@@ -11,11 +11,13 @@
 char *_strdup(char *str)
 {
 	int len = 0;
-	int i, j = 0;
+	int i, j;
 	char *s2;
 
 	if (str == NULL)
 		return (NULL);
+
+	i = 0;
 
 	while (str[i])
 	{
@@ -28,6 +30,7 @@ char *_strdup(char *str)
 	if (s2 == NULL)
 		return (NULL);
 
+	j = 0;
 
 	while (j <= len)
 	{
