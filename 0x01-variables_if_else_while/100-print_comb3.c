@@ -2,10 +2,10 @@
 
 /**
 * main - prints all possible different combinations of two digits
-* Returns : 0
+* Return: 0
 */
 
-int main()
+int main(void)
 {
 
 	int d1 = 0;
@@ -30,5 +30,6 @@ int main()
 	d1++;
 	d2 = 0;
 	}
-	return 0;
+	putchar('\n');
+	return (0);
 }
