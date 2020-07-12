@@ -11,8 +11,6 @@ void rev_string(char *s)
 	char swap;
 	char *last = s;
 
-	last = s;
-
 	while (*last != '\0')
 	{
 	last++;
@@ -21,9 +19,9 @@ void rev_string(char *s)
 
 	while (s < last)
 	{
-	swap = *s;
-	*s = *last;
-	*last = swap;
+	swap = *last;
+	*last = *s;
+	*s = swap;
 	s++;
 	last--;
 	}
