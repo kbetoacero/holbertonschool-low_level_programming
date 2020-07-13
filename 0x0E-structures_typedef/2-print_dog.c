@@ -3,9 +3,6 @@
 
 /**
 * print_dog - prints a struct dog
-* @name: dog'g name
-* @age: dog's age
-* @owner: dog's owner
 * @d: pointer
 *
 * Description: Prints a struct dog
