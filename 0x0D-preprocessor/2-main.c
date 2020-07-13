@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - prints the name of te file was compiled from
-* 
+* main - prints the name of the file was compiled from
+*
 * Return: Always 0
 */
 
