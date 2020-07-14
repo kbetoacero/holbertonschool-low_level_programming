@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * free_dog - Free malloc for dog
- * @d: pointer 
- */
+* free_dog - Free malloc for dog
+* @d: pointer
+*/
 
 void free_dog(dog_t *d)
 {
