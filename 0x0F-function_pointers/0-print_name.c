@@ -4,7 +4,7 @@
 /**
 * print_name - prints a name
 * @f: pointer to a function
-* @name : String
+* @name: String
 * Return: Always 0
 */
 
