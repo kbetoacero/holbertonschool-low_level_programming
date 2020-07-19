@@ -14,7 +14,7 @@
 typedef struct args
 {
 	char *st;
-	void (*l)(va_list list);
+	void (*l)();
 } args_a;
 
 
