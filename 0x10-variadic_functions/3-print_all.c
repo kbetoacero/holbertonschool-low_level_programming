@@ -21,7 +21,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL},
 	};
 
-	sep = ", ";
+	sep = "";
 	va_start(ap, format);
 
 	while (format && format[i])
@@ -29,18 +29,15 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (j <= 3)
 		{
-		if (*(li[j].st) == format[i])
-		{
-			li[j].l(ap);
-
-			if (format[i + 1])
+		if ((li[j].st[0]) == format[i])
 			{
 				printf("%s", sep);
+				li[j].l(ap);
+				sep = ", ";
 			}
-		}
 		j++;
 		}
-	i++;
+		i++;
 	}
 	printf("\n");
 	va_end(ap);
@@ -68,7 +65,7 @@ void li_c(va_list list)
 
 void li_i(va_list list)
 {
-	printf("%i", va_arg(list, int));
+	printf("%d", va_arg(list, int));
 }
 
 /**
