@@ -6,7 +6,6 @@
 #include <stdarg.h>
 
 /**
-*
 * struct args - functions and formats
 * @st: parameters
 * @l: function
@@ -16,9 +15,9 @@ typedef struct args
 {
 	char *st;
 	void (*l)(va_list list);
-}args_a;
+} args_a;
 
- 
+
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
