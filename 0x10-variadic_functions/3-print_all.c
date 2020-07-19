@@ -3,6 +3,8 @@
 /**
 * print_all - print char, int, float or string
 * @format: string of formats
+* @... : parameters
+* Return: Void
 */
 
 void print_all(const char * const format, ...)
@@ -48,6 +50,7 @@ void print_all(const char * const format, ...)
 /**
 * li_c - print char type element
 * @list: va_list passed to function
+* Return: void
 */
 
 
@@ -59,6 +62,7 @@ void li_c(va_list list)
 /**
 * li_i - print int type element
 * @list: va_list passed to function
+* Return: void
 */
 
 
@@ -70,6 +74,7 @@ void li_i(va_list list)
 /**
 * li_f - print float type element
 * @list: va_list passed to function
+* Return: void
 */
 
 
@@ -81,6 +86,7 @@ void li_f(va_list list)
 /**
 * li_s - print string type element
 * @list: va_list passed to function
+* Return: void
 */
 
 void li_s(va_list list)
