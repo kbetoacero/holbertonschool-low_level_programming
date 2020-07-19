@@ -29,7 +29,7 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (j <= 3)
 		{
-		if ((li[j].st[0]) == format[i])
+			if ((li[j].st[0]) == format[i])
 			{
 				printf("%s", sep);
 				li[j].l(ap);
