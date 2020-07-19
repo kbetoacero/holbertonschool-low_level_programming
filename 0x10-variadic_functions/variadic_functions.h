@@ -5,6 +5,13 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+/**
+*
+* struct args - functions and formats
+* @st: parameters
+* @l: function
+*/
+
 typedef struct args
 {
 	char *st;
