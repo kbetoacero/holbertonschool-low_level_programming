@@ -1,6 +1,12 @@
 #include "holberton.h"
 #include <stdio.h>
 
+/**
+* print_chessboard - prints the chessboard
+* @a: pointer
+* Return: Void
+*/
+
 void print_chessboard(char (*a)[8])
 {
 
