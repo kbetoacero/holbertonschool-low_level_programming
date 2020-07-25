@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
 * _strstr - find the ocurrence of the substring
@@ -10,9 +11,7 @@
 */
 char *_strstr(char *haystack, char *needle)
 {
-
 	int i = 0;
-
 
 	while (needle[i])
 	{
@@ -24,12 +23,11 @@ char *_strstr(char *haystack, char *needle)
 			}
 			haystack++;
 		}
-
 		if (needle == 0 || *needle == '\0')
 		{
 			return (0);
 		}
-	i++;
+		i++;
 	}
-	return ('\0');
+	return (NULL);
 }
