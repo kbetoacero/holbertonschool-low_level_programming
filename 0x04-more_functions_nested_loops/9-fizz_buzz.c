@@ -13,33 +13,21 @@ int main(void)
 {
 	int number = 1;
 
-	while (number <= 100)
+	while (number < 100)
 	{
-		if (number % 3 == 0 && number % 5 == 0)
-		{
+		if ((number % 3 == 0) && (number % 5 == 0))
 			printf("FizzBuzz");
-			printf(" ");
-			number++;
-		}
-		else if (number % 5 == 0)
-		{
-			printf("Buzz");
-			printf(" ");
-			number++;
-		}
+
 		else if (number % 3 == 0)
-		{
-			printf("Fizz");
-			printf(" ");
-			number++;
-		}
+			printf("Fuzz");
+
+		else if (number % 5 == 0)
+			printf("Buzz");
+
 		else
-		{
-		printf("%d", number);
-		printf(" ");
-		number++;
-		}
+		printf("%i ", number);
+	number++;
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
