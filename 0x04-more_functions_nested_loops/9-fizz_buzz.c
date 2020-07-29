@@ -9,25 +9,26 @@
 * for multiple of 3 and 5 print FizFuzz
 * Return: Always 0
 */
+
 int main(void)
 {
-	int number = 1;
+	int i;
 
-	while (number < 100)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((number % 3 == 0) && (number % 5 == 0))
+		if (i % 3 != 0 && i % 5 != 0)
+			printf("%d", i);
+		else if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz");
-
-		else if (number % 3 == 0)
-			printf("Fuzz");
-
-		else if (number % 5 == 0)
+		else if (i % 3 == 0)
+			printf("Fizz");
+		else
 			printf("Buzz");
 
+		if (i != 100)
+			printf(" ");
 		else
-		printf("%i ", number);
-	number++;
+			printf("\n");
 	}
-	printf("Buzz\n");
 	return (0);
 }
