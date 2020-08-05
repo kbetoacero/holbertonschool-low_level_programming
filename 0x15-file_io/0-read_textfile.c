@@ -1,12 +1,11 @@
 #include "holberton.h"
-
 /**
- * read_textfile - Funtion reads text file and prints it to the POXIS standard output
+ * read_textfile - Funtion reads text file and prints it to the POXIS
+ *  standard output
  * @filename: input file
  * @letters: Number of characters
  * Return: size
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int n_read, n_write, n_open;
