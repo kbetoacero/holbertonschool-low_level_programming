@@ -1,6 +1,34 @@
-## More malloc - Free 
-## This folder contains practical exercise created in order to learn low level programming
+# 0x0C. C - More malloc, free
 
-Questions ?? send it to 2028@holbertonschool.com
+## Resources:books:
+Read or watch:
+* [Do I cast the result of malloc?](https://intranet.hbtn.io/rltoken/xRakq81EUvl-3QG_3QUC8A)
 
-####This project is mantained by his propietary and Holberton School contributes with it
+---
+## Learning Objectives:bulb:
+What you should learn from this project:
+
+* How to use the exit function
+* What are the functions calloc and realloc from the standard library and how to use them
+
+---
+
+### [0. Trust no one](./0-malloc_checked.c)
+* Write a function that allocates memory using malloc.
+
+
+### [1. string_nconcat](./1-string_nconcat.c)
+* Write a function that concatenates two strings.
+
+
+### [2. _calloc](./2-calloc.c)
+* Write a function that allocates memory for an array, using malloc.
+
+
+### [3. array_range](./3-array_range.c)
+* Write a function that creates an array of integers.
+
+---
+
+## Author
+* **Carlos A. Acero** - [kbetoacero](https://github.com/kbetoacero)
