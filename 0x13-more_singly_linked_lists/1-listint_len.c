@@ -10,7 +10,7 @@ size_t listint_len(const listint_t *h)
 {
 	listint_t *ptr, initial_node;
 	size_t count;
-	
+
 	if (!h)
 		return (0);
 
