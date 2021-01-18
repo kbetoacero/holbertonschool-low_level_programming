@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /*
  * delete_nodeint_at_index - Delete node at index given
  * @head: First node
