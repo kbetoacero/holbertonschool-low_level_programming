@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
-* puts2 - prints every other character of a string, starting whit the first
+* puts - prints every other character of a string, starting whit the first
 * @str : string
 * Return: void
 */
 
-void puts2(char *str)
+void puts(char *str)
 {
 	int n;
 
